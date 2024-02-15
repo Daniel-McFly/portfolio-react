@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Epilogue:wght@500&family=Inter:wght@400;500;600;700&family=Montserrat:wght@700;800&family=Open+Sans:ital@0;1&family=Teko:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+    font-family: Rumble;
+    src: url(../fonts/Rumble.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+body::-webkit-scrollbar {
+    width: 1rem;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(37, 37, 37);        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(170, 170, 170);    
+  }
+body{
+    background: var(--greenblu);
+    color: #ffffff;
+}
+
+html{
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
